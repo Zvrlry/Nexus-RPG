@@ -13,6 +13,7 @@ public class FPSControllerrScript: MonoBehaviour
     public Camera playerCamera;
     public float lookSpeed = 2.0f;
     public float lookXLimit = 45.0f;
+   
 
     CharacterController characterController;
     Vector3 moveDirection = Vector3.zero;
@@ -28,6 +29,7 @@ public class FPSControllerrScript: MonoBehaviour
         // Lock cursor
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+
     }
 
     void Update()
@@ -72,13 +74,13 @@ public class FPSControllerrScript: MonoBehaviour
         }
 
         //Incharge of Interacting with things 
-        if (Input.GetKeyDown(KeyCode.E))
+       /* if (Input.GetKeyDown(KeyCode.E))
         {
             Debug.Log("E key was pressed");
 
             Ray ray = playerCamera.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
-
+           
             if (Physics.Raycast(ray, out hit))
             {
                 Debug.Log("we hit " + hit.collider.name + "" + hit.point );
@@ -86,7 +88,7 @@ public class FPSControllerrScript: MonoBehaviour
             }
            
            
-        }
+        } */
            
         
     }
