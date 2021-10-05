@@ -11,11 +11,14 @@ public class Interactable : MonoBehaviour
     public virtual void Interact()
     {
         //this method is meant to be overwritten
-        Debug.Log("Interacting with" + transform.name);
+        Debug.Log("Interacting with " + transform.name);
        
     }
     void OnDrawGizmosSelected()
     {
+        //if (interactionTransform == null)
+        //    interactionTransform = Transform;
+
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(interactionTransform.position, radius);
     }
