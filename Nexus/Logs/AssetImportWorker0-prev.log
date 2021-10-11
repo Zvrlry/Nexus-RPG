@@ -15,11 +15,11 @@ C:/Users/hh.5q/Documents/GitHub/Nexus-RPG/Nexus
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64536
+57723
 Successfully changed project path to: C:/Users/hh.5q/Documents/GitHub/Nexus-RPG/Nexus
 C:/Users/hh.5q/Documents/GitHub/Nexus-RPG/Nexus
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 77.88 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 80.31 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.7f1 (d91830b65d9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.1.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,21 +35,21 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56216
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56620
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.1.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity 2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001656 seconds.
+Registered in 0.001954 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 76.49 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 80.31 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.156 seconds
+- Completed reload, in  1.325 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002097 seconds.
+Registered in 0.002398 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -58,76 +58,47 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.841 seconds
+- Completed reload, in  0.879 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2892 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 116.5 MB.
-System memory in use after: 116.7 MB.
+Unloading 2895 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.8 MB.
+System memory in use after: 117.0 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3350.
-Total: 1.771500 ms (FindLiveObjects: 0.219100 ms CreateObjectMapping: 0.138600 ms MarkObjects: 1.355400 ms  DeleteObjects: 0.057500 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3353.
+Total: 1.865800 ms (FindLiveObjects: 0.220000 ms CreateObjectMapping: 0.134200 ms MarkObjects: 1.447200 ms  DeleteObjects: 0.063400 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/LowPolyDungeons
-  artifactKey: Guid(160e032e0f77f7640b5775e5291ab8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyDungeons using Guid(160e032e0f77f7640b5775e5291ab8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b811c8a8807467edc1008d5225d184e3') in 0.004054 seconds 
+  path: Assets/Scenes/Environment/PostProcessing/Editor/PostProcessingModelEditor.cs
+  artifactKey: Guid(afe296d4ede60a0479734dc8c7df82c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Environment/PostProcessing/Editor/PostProcessingModelEditor.cs using Guid(afe296d4ede60a0479734dc8c7df82c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd423a86033c4fafaae7fed5068c3733b') in 0.073664 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.332254 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(547a8067c632f2840abbc1561de7973e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(547a8067c632f2840abbc1561de7973e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a72a7c3b23e3850d26fbe629b2434f') in 0.001399 seconds 
+  Time since last request: 0.000319 seconds.
+  path: Assets/Scenes/Environment/PostProcessing/Editor/PostProcessingMonitor.cs
+  artifactKey: Guid(801186e9e649457469bcddd8ee391c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Environment/PostProcessing/Editor/PostProcessingMonitor.cs using Guid(801186e9e649457469bcddd8ee391c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27590074b98669ac8835d188183a8394') in 0.002050 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.339628 seconds.
-  path: Assets/Prefabs/Player.prefab
-  artifactKey: Guid(e7b5204a3bae26f409d44048a26b950e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Player.prefab using Guid(e7b5204a3bae26f409d44048a26b950e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a196729d3adae707549609ce9a96b8') in 0.128037 seconds 
+  Time since last request: 1.696915 seconds.
+  path: Assets/Scenes/Environment/PostProcessing/Editor/PropertyDrawers/GetSetDrawer.cs
+  artifactKey: Guid(e1a43b92f2bbd914ca2e6b4c6a5dba48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Environment/PostProcessing/Editor/PropertyDrawers/GetSetDrawer.cs using Guid(e1a43b92f2bbd914ca2e6b4c6a5dba48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a882116660bee4892a53b4472cb2a74c') in 0.001781 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 54.696491 seconds.
-  path: Assets/LowPolyDungeons/LowPolyDungeons_URP_2019.3.unitypackage
-  artifactKey: Guid(10f2e5d2e4dd2ba42b4dcf6195a74f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyDungeons/LowPolyDungeons_URP_2019.3.unitypackage using Guid(10f2e5d2e4dd2ba42b4dcf6195a74f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85065f9f4a3632a6a577d0423b25f212') in 0.003526 seconds 
+  Time since last request: 0.615862 seconds.
+  path: Assets/Scenes/Environment/PostProcessing/Editor/PropertyDrawers/MinDrawer.cs
+  artifactKey: Guid(8995f52f410f0fb4cb1bdaa71a16e04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Environment/PostProcessing/Editor/PropertyDrawers/MinDrawer.cs using Guid(8995f52f410f0fb4cb1bdaa71a16e04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06e8f3808d1a1ebd26fcdcd5e79830e6') in 0.001740 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.279437 seconds.
-  path: Assets/LowPolyDungeons/Scenes/LowPolyDungeons_Overview.unity
-  artifactKey: Guid(f0ea08c3c4ee3b2429e2068231686db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyDungeons/Scenes/LowPolyDungeons_Overview.unity using Guid(f0ea08c3c4ee3b2429e2068231686db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5aa2970e713241bc5442c4a17e991a') in 0.001672 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 129.434207 seconds.
-  path: Assets/Scenes/Environment/Main.unity
-  artifactKey: Guid(93f3bc3a6fb0a6d42ac99d6f4d15642c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Environment/Main.unity using Guid(93f3bc3a6fb0a6d42ac99d6f4d15642c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ab8fe90a928cc8163369f1143f49a3') in 0.007274 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002140 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.818 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2836 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 129.5 MB.
-System memory in use after: 129.7 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3362.
-Total: 1.993800 ms (FindLiveObjects: 0.212300 ms CreateObjectMapping: 0.120800 ms MarkObjects: 1.614000 ms  DeleteObjects: 0.045600 ms)
-
+  Time since last request: 0.478189 seconds.
+  path: Assets/Scenes/Environment/PostProcessing/Editor/PropertyDrawers/TrackballGroupDrawer.cs
+  artifactKey: Guid(a668d493c5ed56d448b53c19b2c3dfd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Environment/PostProcessing/Editor/PropertyDrawers/TrackballGroupDrawer.cs using Guid(a668d493c5ed56d448b53c19b2c3dfd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb2617af4180732f3919e497ebe1d75c') in 0.001477 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
