@@ -1069,6 +1069,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b2b9a31b76e54409cb67dcdf905d34e6, type: 3}
   m_PrefabInstance: {fileID: 277512019}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &280593820 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3652539460452209115, guid: e7b5204a3bae26f409d44048a26b950e, type: 3}
+  m_PrefabInstance: {fileID: 3652539461949240489}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &283754275
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3660,6 +3665,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemsParent: {fileID: 961976180}
+  inventoryUI: {fileID: 2001010641}
+  _player: {fileID: 280593820}
 --- !u!1001 &962172578
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7691,6 +7698,34 @@ PrefabInstance:
     - target: {fileID: 7425282300684034780, guid: 8413811e77d0fcf4a8c1820ff871775a, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7425282300837890638, guid: 8413811e77d0fcf4a8c1820ff871775a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7425282300837890638, guid: 8413811e77d0fcf4a8c1820ff871775a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7425282300837890638, guid: 8413811e77d0fcf4a8c1820ff871775a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 7425282300136630735}
+    - target: {fileID: 7425282300837890638, guid: 8413811e77d0fcf4a8c1820ff871775a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7425282300837890638, guid: 8413811e77d0fcf4a8c1820ff871775a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UseItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 7425282300837890638, guid: 8413811e77d0fcf4a8c1820ff871775a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: InventorySlot, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7425282300837890638, guid: 8413811e77d0fcf4a8c1820ff871775a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8413811e77d0fcf4a8c1820ff871775a, type: 3}
