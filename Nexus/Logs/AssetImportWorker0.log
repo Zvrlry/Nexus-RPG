@@ -15,11 +15,11 @@ C:/Users/hh.5q/Documents/GitHub/Nexus-RPG/Nexus
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63153
+49740
 Successfully changed project path to: C:/Users/hh.5q/Documents/GitHub/Nexus-RPG/Nexus
 C:/Users/hh.5q/Documents/GitHub/Nexus-RPG/Nexus
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 79.63 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 79.96 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.7f1 (d91830b65d9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.1.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,58 +35,58 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56368
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56320
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.1.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity 2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001930 seconds.
+Registered in 0.001917 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 82.25 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 80.90 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.247 seconds
+- Completed reload, in  1.273 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002376 seconds.
+Registered in 0.002588 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.905 seconds
+- Completed reload, in  0.870 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2931 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 118.2 MB.
+System memory in use before: 118.3 MB.
 System memory in use after: 118.4 MB.
 
 Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3390.
-Total: 1.830600 ms (FindLiveObjects: 0.219000 ms CreateObjectMapping: 0.139600 ms MarkObjects: 1.407500 ms  DeleteObjects: 0.063700 ms)
+Total: 1.800100 ms (FindLiveObjects: 0.211600 ms CreateObjectMapping: 0.136000 ms MarkObjects: 1.391700 ms  DeleteObjects: 0.060200 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/InventoryUI.cs
-  artifactKey: Guid(bdbf9b2e6e2446b4980a977c59526ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/InventoryUI.cs using Guid(bdbf9b2e6e2446b4980a977c59526ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192a8c405209a7e96c43694d461bd2e1') in 0.061816 seconds 
+  path: Assets/Scripts/Inventory.cs
+  artifactKey: Guid(a4107166da021d24fb742aed8d0b4c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Inventory.cs using Guid(a4107166da021d24fb742aed8d0b4c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff449747cda949e2317d6eae9d4198f') in 0.069487 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.497899 seconds.
-  path: Assets/Scripts/InventorySlot.cs
-  artifactKey: Guid(38ce62c7132f1d544a4a6a799b48db08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/InventorySlot.cs using Guid(38ce62c7132f1d544a4a6a799b48db08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a3f3de89a7e7171d896ba743ad5eb6') in 0.002069 seconds 
+  Time since last request: 66.443679 seconds.
+  path: Assets/Scripts/Equipment.cs
+  artifactKey: Guid(c554429b315b0a04793c629f684626c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Equipment.cs using Guid(c554429b315b0a04793c629f684626c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14dcd23e1dcd98f316fe5caf633d3a1a') in 0.001458 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002315 seconds.
+Registered in 0.002333 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -95,21 +95,21 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.864 seconds
+- Completed reload, in  0.852 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2875 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.1 MB.
-System memory in use after: 113.3 MB.
+Unloading 2876 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.2 MB.
+System memory in use after: 113.4 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3393.
-Total: 2.030800 ms (FindLiveObjects: 0.251800 ms CreateObjectMapping: 0.154900 ms MarkObjects: 1.576800 ms  DeleteObjects: 0.045600 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3394.
+Total: 2.212100 ms (FindLiveObjects: 0.229600 ms CreateObjectMapping: 0.144200 ms MarkObjects: 1.792700 ms  DeleteObjects: 0.044400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002314 seconds.
+Registered in 0.002356 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -118,21 +118,80 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.893 seconds
+- Completed reload, in  0.933 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2875 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.1 MB.
-System memory in use after: 113.3 MB.
+Unloading 2876 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.2 MB.
+System memory in use after: 113.4 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3396.
-Total: 1.792300 ms (FindLiveObjects: 0.220600 ms CreateObjectMapping: 0.139700 ms MarkObjects: 1.386900 ms  DeleteObjects: 0.044000 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3397.
+Total: 1.788400 ms (FindLiveObjects: 0.213800 ms CreateObjectMapping: 0.143100 ms MarkObjects: 1.388400 ms  DeleteObjects: 0.042100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 414.122295 seconds.
+  path: Assets/Scripts/Equipment.cs
+  artifactKey: Guid(c554429b315b0a04793c629f684626c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Equipment.cs using Guid(c554429b315b0a04793c629f684626c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f33916a0a4ae9c5288ef27528a7632') in 0.004317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 63.694418 seconds.
+  path: Assets/Items/Helmet Of Fire.asset
+  artifactKey: Guid(44d5f31cdc6a68d43be2ddf5b61b6c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Items/Helmet Of Fire.asset using Guid(44d5f31cdc6a68d43be2ddf5b61b6c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f0c8b1d90c7580e274b1ccd94db9868') in 0.018438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.070558 seconds.
+  path: Assets/Items/Test Item.asset
+  artifactKey: Guid(0dfdc8acb6d287d4984056911d3e83f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Items/Test Item.asset using Guid(0dfdc8acb6d287d4984056911d3e83f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8173d320af61743bcead464ef39b166c') in 0.002559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 80.031358 seconds.
+  path: Assets/Items/Helmet Of Fire 1.asset
+  artifactKey: Guid(d3cb4678c2615654788781c4aba789ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Items/Helmet Of Fire 1.asset using Guid(d3cb4678c2615654788781c4aba789ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b907b838c3b76406854987b10254730') in 0.004507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.560544 seconds.
+  path: Assets/Items/Helmet Of Protection.asset
+  artifactKey: Guid(d3cb4678c2615654788781c4aba789ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Items/Helmet Of Protection.asset using Guid(d3cb4678c2615654788781c4aba789ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a39c9a2c235e19769dd6852e45c963a6') in 0.002832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.637786 seconds.
+  path: Assets/rpg-tutorial-assets/Sprites/CloseButton.png
+  artifactKey: Guid(9dc0d406488d21f4387bddf0079943ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rpg-tutorial-assets/Sprites/CloseButton.png using Guid(9dc0d406488d21f4387bddf0079943ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52694d0bd53a36287923434a866b5228') in 0.179127 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002376 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.855 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2877 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.3 MB.
+System memory in use after: 117.5 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3421.
+Total: 2.123500 ms (FindLiveObjects: 0.261300 ms CreateObjectMapping: 0.160600 ms MarkObjects: 1.651100 ms  DeleteObjects: 0.049200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003368 seconds.
+Registered in 0.002364 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -141,102 +200,21 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.930 seconds
+- Completed reload, in  0.859 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2875 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.2 MB.
-System memory in use after: 113.4 MB.
+Unloading 2877 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.3 MB.
+System memory in use after: 117.5 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3399.
-Total: 2.695400 ms (FindLiveObjects: 0.351400 ms CreateObjectMapping: 0.193000 ms MarkObjects: 2.088900 ms  DeleteObjects: 0.060900 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3425.
+Total: 4.441100 ms (FindLiveObjects: 0.997800 ms CreateObjectMapping: 0.340600 ms MarkObjects: 3.024900 ms  DeleteObjects: 0.075700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002446 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.857 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2875 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.1 MB.
-System memory in use after: 113.3 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3402.
-Total: 2.888700 ms (FindLiveObjects: 0.348300 ms CreateObjectMapping: 0.179200 ms MarkObjects: 2.291500 ms  DeleteObjects: 0.068400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002573 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.797 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2875 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.2 MB.
-System memory in use after: 113.4 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3405.
-Total: 1.786000 ms (FindLiveObjects: 0.212400 ms CreateObjectMapping: 0.130500 ms MarkObjects: 1.400700 ms  DeleteObjects: 0.041200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1797.813315 seconds.
-  path: Assets/Scripts/FPSControllerrScript.cs
-  artifactKey: Guid(b2eb04bd2a91bea40a1cca213f260078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FPSControllerrScript.cs using Guid(b2eb04bd2a91bea40a1cca213f260078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a91996cea5f51b35b9743e7850ae2835') in 0.009459 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 30.596059 seconds.
-  path: Assets/Scripts/FPSControllerrScript.cs
-  artifactKey: Guid(b2eb04bd2a91bea40a1cca213f260078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FPSControllerrScript.cs using Guid(b2eb04bd2a91bea40a1cca213f260078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f33fe982c973731bdc942541592678dd') in 0.002128 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002438 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.864 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2875 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.2 MB.
-System memory in use after: 113.4 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3408.
-Total: 2.836000 ms (FindLiveObjects: 0.418100 ms CreateObjectMapping: 0.259500 ms MarkObjects: 2.098600 ms  DeleteObjects: 0.058000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002306 seconds.
+Registered in 0.002329 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -245,159 +223,166 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.785 seconds
+- Completed reload, in  0.828 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2875 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.2 MB.
-System memory in use after: 113.4 MB.
+Unloading 2877 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.3 MB.
+System memory in use after: 117.5 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3411.
-Total: 1.792200 ms (FindLiveObjects: 0.227500 ms CreateObjectMapping: 0.138900 ms MarkObjects: 1.383500 ms  DeleteObjects: 0.041200 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3428.
+Total: 2.673300 ms (FindLiveObjects: 0.350800 ms CreateObjectMapping: 0.229900 ms MarkObjects: 2.047000 ms  DeleteObjects: 0.044100 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 611.344744 seconds.
+  path: Assets/Scripts/EquipmentManager.cs
+  artifactKey: Guid(0da41604c72aa724c9929637a6b127aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EquipmentManager.cs using Guid(0da41604c72aa724c9929637a6b127aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23af556d85b7dc8935245b73b87d2e28') in 0.005502 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003574 seconds.
+Registered in 0.002412 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.859 seconds
+- Completed reload, in  0.955 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2875 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.2 MB.
-System memory in use after: 113.4 MB.
+Unloading 2877 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.3 MB.
+System memory in use after: 117.5 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3414.
-Total: 2.454900 ms (FindLiveObjects: 0.228100 ms CreateObjectMapping: 0.146400 ms MarkObjects: 2.001100 ms  DeleteObjects: 0.077700 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3431.
+Total: 2.107900 ms (FindLiveObjects: 0.223300 ms CreateObjectMapping: 0.183400 ms MarkObjects: 1.655900 ms  DeleteObjects: 0.044400 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 602.844409 seconds.
+  path: Assets/Scripts/EquipmentManager.cs
+  artifactKey: Guid(0da41604c72aa724c9929637a6b127aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EquipmentManager.cs using Guid(0da41604c72aa724c9929637a6b127aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2951e5ab25b05595e2b092d79a582bea') in 0.005014 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002711 seconds.
+Registered in 0.002511 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.804 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2875 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.2 MB.
-System memory in use after: 113.4 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3417.
-Total: 2.489100 ms (FindLiveObjects: 0.329700 ms CreateObjectMapping: 0.174200 ms MarkObjects: 1.931900 ms  DeleteObjects: 0.051600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002737 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.860 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2875 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.2 MB.
-System memory in use after: 113.4 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3420.
-Total: 4.017700 ms (FindLiveObjects: 0.582700 ms CreateObjectMapping: 0.383800 ms MarkObjects: 2.980600 ms  DeleteObjects: 0.068100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003125 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.793 seconds
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2875 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.2 MB.
-System memory in use after: 113.4 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3423.
-Total: 1.860500 ms (FindLiveObjects: 0.228700 ms CreateObjectMapping: 0.142000 ms MarkObjects: 1.445700 ms  DeleteObjects: 0.043100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002388 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.819 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2875 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.2 MB.
-System memory in use after: 113.4 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3426.
-Total: 2.186900 ms (FindLiveObjects: 0.244500 ms CreateObjectMapping: 0.133900 ms MarkObjects: 1.755100 ms  DeleteObjects: 0.051800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004056 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.816 seconds
 Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2877 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.3 MB.
+System memory in use after: 117.5 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3434.
+Total: 1.900900 ms (FindLiveObjects: 0.222400 ms CreateObjectMapping: 0.148400 ms MarkObjects: 1.488800 ms  DeleteObjects: 0.040500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002403 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.827 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2877 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.3 MB.
+System memory in use after: 117.5 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3437.
+Total: 2.427500 ms (FindLiveObjects: 0.322500 ms CreateObjectMapping: 0.175400 ms MarkObjects: 1.868600 ms  DeleteObjects: 0.059700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 412.255433 seconds.
+  path: Assets/Scripts/Item.cs
+  artifactKey: Guid(fbcc00fff4480b44bbe4a59e48f0e191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Item.cs using Guid(fbcc00fff4480b44bbe4a59e48f0e191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acabdd7859ca6967f359238876eee406') in 0.006604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 110.384918 seconds.
+  path: Assets/Scripts/Item.cs
+  artifactKey: Guid(fbcc00fff4480b44bbe4a59e48f0e191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Item.cs using Guid(fbcc00fff4480b44bbe4a59e48f0e191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17a7adc9262a3c559cb77235c99d87fa') in 0.001843 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002331 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.868 seconds
+Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2875 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.2 MB.
-System memory in use after: 113.4 MB.
+Unloading 2877 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.3 MB.
+System memory in use after: 117.6 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3429.
-Total: 1.812900 ms (FindLiveObjects: 0.220400 ms CreateObjectMapping: 0.147200 ms MarkObjects: 1.403400 ms  DeleteObjects: 0.041300 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3440.
+Total: 2.898400 ms (FindLiveObjects: 0.394300 ms CreateObjectMapping: 0.272700 ms MarkObjects: 2.173600 ms  DeleteObjects: 0.056500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 232.205056 seconds.
+  path: Assets/Scripts/Item.cs
+  artifactKey: Guid(fbcc00fff4480b44bbe4a59e48f0e191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Item.cs using Guid(fbcc00fff4480b44bbe4a59e48f0e191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '054525e3df2588a5dddd6d8343a4278a') in 0.005152 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002747 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.929 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2877 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.4 MB.
+System memory in use after: 117.6 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3443.
+Total: 1.874300 ms (FindLiveObjects: 0.231500 ms CreateObjectMapping: 0.134800 ms MarkObjects: 1.462800 ms  DeleteObjects: 0.044500 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002449 seconds.
+Registered in 0.002344 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -406,67 +391,21 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.825 seconds
+- Completed reload, in  0.846 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2875 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.2 MB.
-System memory in use after: 113.4 MB.
+Unloading 2877 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.4 MB.
+System memory in use after: 117.6 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3432.
-Total: 2.292200 ms (FindLiveObjects: 0.379200 ms CreateObjectMapping: 0.224400 ms MarkObjects: 1.634500 ms  DeleteObjects: 0.052600 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3446.
+Total: 2.088000 ms (FindLiveObjects: 0.244500 ms CreateObjectMapping: 0.187000 ms MarkObjects: 1.612700 ms  DeleteObjects: 0.042800 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002509 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.800 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2875 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.2 MB.
-System memory in use after: 113.4 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3435.
-Total: 1.846200 ms (FindLiveObjects: 0.217800 ms CreateObjectMapping: 0.137500 ms MarkObjects: 1.447100 ms  DeleteObjects: 0.042700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002304 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.848 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2875 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.2 MB.
-System memory in use after: 113.4 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3438.
-Total: 3.058100 ms (FindLiveObjects: 0.575700 ms CreateObjectMapping: 0.360500 ms MarkObjects: 2.060800 ms  DeleteObjects: 0.059400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002307 seconds.
+Registered in 0.002669 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -475,107 +414,38 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.798 seconds
+- Completed reload, in  0.806 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2875 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.2 MB.
-System memory in use after: 113.4 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3441.
-Total: 1.846300 ms (FindLiveObjects: 0.229900 ms CreateObjectMapping: 0.149400 ms MarkObjects: 1.426600 ms  DeleteObjects: 0.039200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002646 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.891 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2875 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.2 MB.
-System memory in use after: 113.4 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3444.
-Total: 1.924900 ms (FindLiveObjects: 0.237100 ms CreateObjectMapping: 0.131800 ms MarkObjects: 1.507300 ms  DeleteObjects: 0.047400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002577 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.789 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2875 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.2 MB.
-System memory in use after: 113.4 MB.
+Unloading 2877 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.4 MB.
+System memory in use after: 117.6 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3447.
-Total: 1.836700 ms (FindLiveObjects: 0.245600 ms CreateObjectMapping: 0.140400 ms MarkObjects: 1.409100 ms  DeleteObjects: 0.040500 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3449.
+Total: 1.852300 ms (FindLiveObjects: 0.229100 ms CreateObjectMapping: 0.137500 ms MarkObjects: 1.438900 ms  DeleteObjects: 0.045700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002284 seconds.
+Registered in 0.002620 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.860 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2875 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.2 MB.
-System memory in use after: 113.4 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3450.
-Total: 1.773100 ms (FindLiveObjects: 0.223800 ms CreateObjectMapping: 0.137000 ms MarkObjects: 1.371300 ms  DeleteObjects: 0.039900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002389 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\hh.5q\Documents\GitHub\Nexus-RPG\Nexus\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.796 seconds
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2875 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.2 MB.
-System memory in use after: 113.4 MB.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.867 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.15 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2877 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.4 MB.
+System memory in use after: 117.6 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3453.
-Total: 2.405600 ms (FindLiveObjects: 0.460100 ms CreateObjectMapping: 0.211200 ms MarkObjects: 1.690100 ms  DeleteObjects: 0.043200 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3452.
+Total: 2.367000 ms (FindLiveObjects: 0.289400 ms CreateObjectMapping: 0.175500 ms MarkObjects: 1.843200 ms  DeleteObjects: 0.057800 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
